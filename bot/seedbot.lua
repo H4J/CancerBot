@@ -221,29 +221,21 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {160522435,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@Can_3er
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+
+Our channel
+@CancerBot_Sup
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -320,8 +312,9 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
-
+Commands list : لیست دستورات
+Our Channel : @CancerBot_Sup
+کانال ما : @CancerBot_Sup
 !kick [username|id]
 You can also do it by reply
 
